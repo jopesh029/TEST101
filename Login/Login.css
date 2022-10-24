@@ -1,0 +1,23 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(117.13deg, #093C71 37.48%, #AD172B 139.25%);
+}
+.gradient-custom-2 {
+
+    background: linear-gradient(342.62deg, #093C71 40.02%, #B6162B 123.33%);
+}
+
+@media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+    }
+}
